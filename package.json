@@ -1,6 +1,6 @@
 {
   "name": "klink-contract-details",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "repository": "git@github.com:KlinkFinance/klink-contract-details.git",
   "author": "Klink Finance",
   "license": "MIT",
@@ -19,6 +19,6 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "aws-sdk": "^2.1620.0"
+    "node-fetch": "^3.3.2"
   }
 }

@@ -1,4 +1,4 @@
-import { readFile } from "./awsHelper";
+import { readFile } from "./fetchData";
 import {
   GetAddressProps,
   GetAddressForAssetsProps,
