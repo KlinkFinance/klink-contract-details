@@ -1,6 +1,6 @@
 {
   "name": "klink-contract-details",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "git@github.com:KlinkFinance/klink-contract-details.git",
   "author": "Klink Finance",
   "license": "MIT",
@@ -12,8 +12,13 @@
     "build": "tsup"
   },
   "devDependencies": {
+    "@types/node": "^20.12.12",
+    "dotenv": "^16.4.5",
     "ts-node": "^10.9.2",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1620.0"
   }
 }
